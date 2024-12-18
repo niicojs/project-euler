@@ -1,0 +1,13 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "consola": "^3.2.3",
+    "dotenv": "^16.4.7",
+    "tinyqueue": "^3.0.0",
+    "yoctocolors": "^2.1.1"
+  }
+}
