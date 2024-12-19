@@ -294,3 +294,15 @@ export function solve2eq2inc([a1, b1, c1], [a2, b2, c2]) {
   const y = (c1 - a1 * x) / b1;
   return [x, y];
 }
+
+export function isPrime(n) {
+  if (isNaN(n) || !isFinite(n) || n % 1 || n < 2) return false;
+  if (n % 2 == 0) return n == 2;
+  if (n % 3 == 0) return n == 3;
+  var m = Math.sqrt(n);
+  for (var i = 5; i <= m; i += 6) {
+    if (n % i == 0) return false;
+    if (n % (i + 2) == 0) return false;
+  }
+  return true;
+}
