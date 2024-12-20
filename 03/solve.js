@@ -1,6 +1,5 @@
 import consola from 'consola';
 import clipboard from 'clipboardy';
-import { memoize } from '../utils.js';
 
 const target = 600851475143;
 
